@@ -253,8 +253,6 @@ hr {
   width: 49%;
   margin-left: 0.25%;
   margin-right: 0.25%;
-  display: inline-block;
-  box-sizing: border-box;
 }
 
 .kepdiv {
@@ -493,7 +491,10 @@ grid-template-columns: 100%;
     clear: both;
   }
   .kepdiv {
-    width: 100%
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 
