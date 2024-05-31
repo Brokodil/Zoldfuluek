@@ -477,4 +477,9 @@ body {
   .szakmatabla {
 grid-template-columns: 100%;
   }
+  .fokep {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
