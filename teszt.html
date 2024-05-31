@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teszt</title>
+    <link rel="stylesheet" href="Környezet.css">
+    <script src="környezet.js"></script>
+</head>
+
+<body>
+    <header>
+        <p class="nev">Teszt</p>
+        <img src="hambi.png" alt="Menu" id="menugomb" class="menu" onclick="menube()">
+        <div id="navidiv" class="navidiv">
+            <a class="navi" href="index.html">Főoldal‎ </a>
+            <a class="navi" href="szakma.html">Szakma‎ ‎ </a>
+            <a class="navi" href="teszt.html">‎ ‎Teszt‎‎ ‎ ‎</a>
+            <table class="tcim">
+                <th><a href="#teteje">Ugrás a teszt tetejére</a></th>
+            </table>
+            <table class="tcim">
+                <th><a href="#alja">Ugrás a teszt aljára</a></th>
+            </table>
+        </div>
+    </header>
+    <div class="content" onclick="menu()">
+        <hr id="teteje">
+        <form class="teszt" id="teszt" name="TESZT" action="környezet.js">
+            <div id="K_1">
+                <p>Mik tartoznak a környezetvédelem fő elemei közé:</p>
+                <input type="checkbox" id="k1" name="K_1">
+                <label for="k1">Légszennyezés csökkentése</label>
+                <br>  
+                <input type="checkbox" id="k2" name="K_1">
+                <label for="k2">Túltermelés</label>
+                <br>
+                <input type="checkbox" id="k3" name="K_1">
+                <label for="k3">Vízvédelem</label>
+                <br>
+                <input type="checkbox" id="k4" name="K_1">
+                <label for="k4">Kőolajkitermelés</label>
+            </div>
+
+            <div id="K_2">
+                <p>Mik tartoznak a vízvédelemhez:</p>
+                <input type="checkbox" id="k5" name="K_2" value="k5">
+                <label for="k5">Nem tisztított szennyvíz</label>
+                <br>
+                <input type="checkbox" id="k6" name="K_2" value="k6">
+                <label for="k6">Vízi élővilág védelme</label>
+                <br>
+                <input type="checkbox" id="k7" name="K_2" value="k7">
+                <label for="k7">Vízforrások tisztán tartása</label>
+            </div>
+
+            <div id="K_3">
+                <p>A Windows 10-ben nem lehet az alkalmazásokat energiatakarékos módba állítani.</p>
+                <input type="radio" id="k8" name="K_3" value="k8">
+                <label for="k8">Igaz</label>
+                <br>
+                <input type="radio" id="k9" name="K_3" value="k9">
+                <label for="k9">Hamis</label>
+            </div>
+
+            <div id="K_4">
+                <p>Ha pár percre állunk fel a számítógéptől akkor mit kell vele csinálni, hogy a legkevesebb áramot
+                    használja fel.</p>
+                <input type="radio" id="k10" name="K_4" value="k10 ">
+                <label for="k10">Ki kell kapcsolni</label>
+                <br>
+                <input type="radio" id="k11" name="K_4" value="k11">
+                <label for="k11">Bekapcsolva kell hagyni</label>
+            </div>
+
+            <div id="K_5">
+                <p>Az alábbiak közül melyik nem jó az erdő- és talajvédelem definíciójára.</p>
+                <input type="radio" id="k12" name="K_5" value="k12 ">
+                <label for="k12">Az erdő fáinak megőrzése</label>
+                <br>
+                <input type="radio" id="k13" name="K_5" value="k13">
+                <label for="k13">Túlzott mértékű vadállományritkítás</label>
+                <br>
+                <input type="radio" id="k14" name="K_5" value="k14">
+                <label for="k14">Talajerózió megelőzése</label>
+            </div>
+
+            <div id="K_6">
+                <p>Ha kikapcsoljuk a nem használt eszközeinket akkor megspóroljuk a 8 órán keresztül működő
+                    számítógépünk áramfelhasználásának 70%-át.</p>
+                <input type="radio" id="k15" name="K_6" value="k15 ">
+                <label for="k15">Igaz</label>
+                <br>
+                <input type="radio" id="k16" name="K_6" value="k16">
+                <label for="k16">Hamis</label>
+            </div>
+
+            <div id="K_7">
+                <p>Mit kell csinálni az alábbiak közül:</p>
+                <input type="radio" id="k17" name="K_7" value="k17">
+                <label for="k17">Szemetet égetni</label>
+                <br>
+                <input type="radio" id="k18" name="K_7" value="k18">
+                <label for="k18">Elemeket a kukába dobni</label>
+                <br>
+                <input type="radio" id="k19" name="K_7" value="k19">
+                <label for="k19">A hulladékot szelektíven gyűjteni</label>
+            </div>
+
+            <div id="K_8">
+                <p>Az alábbiak közül melyik nem megújuló energiaforrás.</p>
+                <input type="checkbox" id="k20" name="K_8" value="k20">
+                <label for="k20">Szélenergia</label>
+                <br>
+                <input type="checkbox" id="k21" name="K_8" value="k21">
+                <label for="k21">Szénenergia</label>
+                <br>
+                <input type="checkbox" id="k22" name="K_8" value="k22">
+                <label for="k22">Vízenergia</label>
+                <br>
+                <input type="checkbox" id="k23" name="K_8" value="k23">
+                <label for="k23">Hullámenergia</label>
+            </div>
+
+            <div id="K_9">
+                <p>Ha a számítógép kikapcsolása nem opció használhatunk alvó üzemmódot. </p>
+                <input type="radio" id="k24" name="K_9" value="k24 ">
+                <label for="k24">Igaz</label>
+                <br>
+                <input type="radio" id="k25" name="K_9" value="k25">
+                <label for="k25">Hamis</label>
+            </div>
+
+            <div id="K_10">
+                <p>Milyen alkatrészekkel tudunk csökkenteni az áramfogyasztásunkon:</p>
+                <input type="checkbox" id="k26" name="K_10" value="k26">
+                <label for="k26">GPU</label>
+                <br>
+                <input type="checkbox" id="k27" name="K_10" value="k27">
+                <label for="k27">Gépház</label>
+                <br>
+                <input type="checkbox" id="k28" name="K_10" value="k28">
+                <label for="k28">CPU</label>
+                <br>
+                <input type="checkbox" id="k29" name="K_10" value="k29">
+                <label for="k29">Egér</label>
+            </div>
+            <br>
+
+                <input type="button" class="submit" value="teszt kiértékelése" onclick="teszt()" >
+        </form>
+        <p class="pontok" id="pontok"></p>
+        <hr id="alja">
+    </div>
+    <div class="footer">
+        <p>
+            Az oldalt Vas Gyula Levente és Borda Bánk Nándor készítette. 2024 © all rights reserved.
+        </p>
+    </div>
+</body>
+
+</html>
